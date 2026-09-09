@@ -1,0 +1,17 @@
+node_modules
+.vercel
+.output
+dist
+*.log
+.grok
+.nitro
+.env
+.env.*
+.DS_Store
+screenshots
+artifacts
+attachments
+tmp
+/tmp
+*.tsbuildinfo
+.playwright-cli

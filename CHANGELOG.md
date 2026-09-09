@@ -1,0 +1,2 @@
+- Capture package written to `public/outreach/` from the live original site and the demo. GIF + MP4 both scroll past the hero.
+- GitHub target org: `Novenworks` (preferred repo name `Simpex-Repipe-and-Plumbing-Demo`).
