@@ -48,7 +48,12 @@ function OutreachPage() {
                 https://simpexrepipe.com/
               </a>
             </li>
-            <li>Demo production URL: see Vercel deployment in README / this session</li>
+            <li>
+              Demo:{" "}
+              <a className="underline" href="https://simpex-repipe-and-plumbing-demo.vercel.app">
+                https://simpex-repipe-and-plumbing-demo.vercel.app
+              </a>
+            </li>
             <li>
               Phone:{" "}
               <a className="underline" href="tel:+18664746739">
@@ -58,7 +63,12 @@ function OutreachPage() {
             </li>
             <li>CSLB #1031884 · C36 Plumbing · current and active through 10/31/2027</li>
             <li>HQ: 18021 Sky Park Circle, Suite K, Irvine, CA 92614</li>
-            <li>GitHub: Simpex-Repipe-and-Plumbing-Demo</li>
+            <li>
+              GitHub:{" "}
+              <a className="underline" href="https://github.com/Novenworks/Simpex-Repipe-and-Plumbing-Demo">
+                Novenworks/Simpex-Repipe-and-Plumbing-Demo
+              </a>
+            </li>
           </ul>
         </section>
 
@@ -189,7 +199,7 @@ I’m with Novenworks. We built a speculative homepage concept (not a live cutov
 
 If useful, I’m happy to walk you through it. If not, no harm done.
 
-[demo URL]
+https://simpex-repipe-and-plumbing-demo.vercel.app
 `}
           </pre>
         </section>

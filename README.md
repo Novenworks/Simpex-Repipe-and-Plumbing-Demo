@@ -4,6 +4,12 @@ This is a **speculative website concept** created by [Novenworks](https://www.no
 
 Simpex names, wordmark, and photography remain property of their owners. They are used here only to demonstrate a clearer presentation of the existing business.
 
+## Live demo
+
+- Site: https://simpex-repipe-and-plumbing-demo.vercel.app
+- Operator brief: https://simpex-repipe-and-plumbing-demo.vercel.app/outreach
+- Source: https://github.com/Novenworks/Simpex-Repipe-and-Plumbing-Demo
+
 ## Stack
 
 TanStack Start · React 19 · TypeScript · Tailwind CSS v4 · Vite · shadcn/Radix primitives.
@@ -14,7 +20,7 @@ TanStack Start · React 19 · TypeScript · Tailwind CSS v4 · Vite · shadcn/Ra
 
 ```bash
 npm install
-npm run dev          # http://0.0.0.0:8080
+npm run dev
 npm run build
 npm run typecheck
 ```
