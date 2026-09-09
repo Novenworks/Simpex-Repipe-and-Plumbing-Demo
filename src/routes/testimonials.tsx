@@ -16,7 +16,7 @@ function TestimonialsPage() {
           First-party reviews
         </p>
         <h1 className="mt-2 max-w-3xl text-4xl md:text-6xl">
-          Why Simpex is the people’s choice — in their own words.
+          Reviews published on the current Simpex site.
         </h1>
         <p className="mt-4 max-w-2xl text-muted">
           Quotes below are copied from{" "}
@@ -34,7 +34,7 @@ function TestimonialsPage() {
           {testimonials.map((t) => (
             <blockquote key={t.name} className="border border-line bg-cream p-6">
               <p className="leading-relaxed">“{t.quote}”</p>
-              <footer className="mt-4 font-display text-sm tracking-[0.14em] uppercase text-muted">
+              <footer className="font-display mt-4 text-sm tracking-[0.14em] uppercase text-muted">
                 {t.name}
               </footer>
             </blockquote>

@@ -35,10 +35,10 @@ function AboutPage() {
           <h2 className="text-3xl md:text-4xl">Our company</h2>
           <p className="mt-4 leading-relaxed text-muted">
             Simpex Repipe & Plumbing is a fully licensed, bonded, and insured
-            plumbing company. With over 20 years of experience and dedication in
-            the plumbing industry, they position themselves as specialists in
+            plumbing company with over 20 years of experience. We specialize in
             whole-home repipes — PEX and copper — plus slab leaks, sewer camera
-            work, and everyday plumbing.
+            work, and everyday plumbing across Orange County, Los Angeles, and
+            the Inland Empire.
           </p>
           <p className="mt-4 leading-relaxed text-muted">
             The California Contractors State License Board lists{" "}
@@ -67,16 +67,21 @@ function AboutPage() {
         />
       </section>
 
-      <section className="bg-cream">
-        <div className="mx-auto max-w-6xl px-4 py-16 md:px-6">
+      <section className="relative overflow-hidden bg-cream">
+        <img
+          src="/images/about/service-map.jpg"
+          alt=""
+          className="absolute inset-0 h-full w-full object-cover opacity-15"
+        />
+        <div className="relative mx-auto max-w-6xl px-4 py-16 md:px-6">
           <h2 className="text-3xl">Areas we cover</h2>
           <p className="mt-3 max-w-2xl text-muted">
-            Simpex proudly services Orange County, Los Angeles County, and the
-            Inland Empire.
+            Simpex services Orange County, Los Angeles County, and the Inland
+            Empire.
           </p>
           <div className="mt-8 grid gap-6 md:grid-cols-3">
             {site.locations.map((loc) => (
-              <article key={loc.label} className="border border-line p-6">
+              <article key={loc.label} className="border border-line bg-cream/90 p-6">
                 <p className="font-display text-sm tracking-[0.16em] uppercase text-copper">
                   {loc.label}
                 </p>

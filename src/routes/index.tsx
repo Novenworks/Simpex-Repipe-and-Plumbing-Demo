@@ -35,14 +35,17 @@ function Home() {
 
   return (
     <SiteShell>
-      <section className="relative isolate min-h-[34rem] overflow-hidden bg-ink text-cream md:min-h-[40rem]">
+      <section className="relative isolate min-h-[36rem] overflow-hidden bg-ink text-cream md:min-h-[42rem]">
         <img
           src="/images/hero/pex-header.jpg"
           alt="PEX manifold and water lines in an opened residential wall"
           className="absolute inset-0 h-full w-full object-cover object-[72%_center] brightness-[1.08] contrast-[1.1]"
+          width={1920}
+          height={750}
+          fetchPriority="high"
         />
-        <div className="absolute inset-0 bg-linear-to-r from-ink from-0% via-ink/80 via-[38%] to-ink/10" />
-        <div className="relative mx-auto flex min-h-[34rem] max-w-6xl flex-col justify-end px-4 py-12 md:min-h-[40rem] md:px-6 md:py-16">
+        <div className="absolute inset-0 bg-linear-to-r from-ink from-0% via-ink/82 via-[42%] to-ink/15" />
+        <div className="relative mx-auto flex min-h-[36rem] max-w-6xl flex-col justify-end px-4 pt-12 pb-28 md:min-h-[42rem] md:px-6 md:pt-16 md:pb-20">
           <p className="font-display text-sm tracking-[0.22em] uppercase text-copper">
             Orange County · Los Angeles · Inland Empire
           </p>
@@ -59,10 +62,10 @@ function Home() {
               <Link to="/contact">Request an estimate</Link>
             </Button>
             <Button asChild variant="light" size="lg">
-              <Link to="/work">View our work</Link>
+              <a href={site.phoneTel}>Call {site.phoneDisplay}</a>
             </Button>
             <Button asChild variant="ghost" size="lg">
-              <a href={site.phoneTel}>Call {site.phoneDisplay}</a>
+              <Link to="/work">View our work</Link>
             </Button>
           </div>
         </div>
@@ -105,7 +108,7 @@ function Home() {
           <h2 className="max-w-xl text-3xl md:text-5xl">
             Whole-home repipes first. The rest of the plumbing, too.
           </h2>
-          <p className="max-w-md text-muted leading-relaxed">
+          <p className="max-w-md leading-relaxed text-muted">
             Grouped the way homeowners actually decide: replace the system, find
             a hidden leak, or fix what’s in front of you.
           </p>
@@ -172,22 +175,24 @@ function Home() {
               <Link to="/work">See the work gallery</Link>
             </Button>
           </div>
-          <div className="mt-10 grid grid-cols-2 gap-3 md:grid-cols-4 md:gap-4">
-            {workPhotos.slice(0, 8).map((photo, i) => (
+          <div className="mt-10 grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-4">
+            {workPhotos.map((photo, i) => (
               <figure
                 key={photo.src}
                 className={
-                  i === 0 || i === 3
-                    ? "col-span-2 row-span-1 overflow-hidden"
-                    : "overflow-hidden"
+                  i === 0 || i === 3 ? "overflow-hidden sm:col-span-2" : "overflow-hidden"
                 }
               >
                 <img
                   src={photo.src}
                   alt={photo.alt}
-                  className="h-44 w-full object-cover md:h-56"
+                  className={
+                    i === 0 || i === 1 || i === 2
+                      ? "h-64 w-full object-cover sm:h-80"
+                      : "h-56 w-full object-cover sm:h-64"
+                  }
                 />
-                <figcaption className="bg-ink-2 px-3 py-2 text-xs text-cream/70">
+                <figcaption className="bg-ink-2 px-3 py-2 text-sm text-cream/70">
                   {photo.caption}
                 </figcaption>
               </figure>
@@ -217,17 +222,16 @@ function Home() {
           </h2>
           <p className="mt-4 leading-relaxed text-muted">
             Simpex is a fully licensed, bonded, and insured plumbing company
-            with over 20 years of experience. The current site’s own reviews
-            keep returning to the same points: the owner is involved, the crew
-            walks the house, drywall gets patched, and the job site is left
-            clean.
+            with over 20 years of experience. Reviews on the current site keep
+            returning to the same points: the owner is involved, the crew walks
+            the house, drywall gets patched, and the job site is left clean.
           </p>
           <ul className="mt-6 space-y-3">
             {[
               "Owner named in customer reviews — Brian walks the scope.",
               "Drywall patching called out as part of the repipe, not an afterthought.",
               "City inspectors praised the work on more than one published review.",
-              "Free in-home estimates. Permits handled on jobs where customers mentioned them.",
+              "Free in-home estimates, as stated on the current Simpex site.",
             ].map((line) => (
               <li key={line} className="flex gap-3 text-sm leading-relaxed">
                 <Check className="mt-0.5 size-4 shrink-0 text-copper" />
@@ -288,7 +292,7 @@ function Home() {
               <p className="text-[1.05rem] leading-relaxed text-ink">
                 “{t.quote}”
               </p>
-              <footer className="mt-4 font-display text-sm tracking-[0.14em] uppercase text-muted">
+              <footer className="font-display mt-4 text-sm tracking-[0.14em] uppercase text-muted">
                 {t.name}
               </footer>
             </blockquote>
@@ -296,8 +300,14 @@ function Home() {
         </div>
       </section>
 
-      <section className="bg-paper-2">
-        <div className="mx-auto grid max-w-6xl gap-10 px-4 py-16 md:grid-cols-[1.2fr_1fr] md:px-6 md:py-24">
+      <section className="relative overflow-hidden bg-paper-2">
+        <img
+          src="/images/about/service-map.jpg"
+          alt=""
+          className="absolute inset-0 h-full w-full object-cover object-center opacity-[0.18]"
+        />
+        <div className="absolute inset-0 bg-paper-2/70" />
+        <div className="relative mx-auto grid max-w-6xl gap-10 px-4 py-16 md:grid-cols-[1.2fr_1fr] md:px-6 md:py-24">
           <div>
             <p className="font-display text-sm tracking-[0.22em] uppercase text-copper">
               Service area

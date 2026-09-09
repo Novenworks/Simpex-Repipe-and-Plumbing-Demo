@@ -12,8 +12,9 @@ import { nav, site } from "@/lib/site";
 
 export function SiteHeader() {
   return (
-    <header className="sticky top-0 z-40 border-b border-ink/10 bg-paper/95 backdrop-blur-sm">
-      <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-4 px-4 md:h-[4.5rem] md:px-6">
+    <header className="sticky top-0 z-40 bg-paper/95 backdrop-blur-sm">
+      <div className="h-0.5 bg-copper" />
+      <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-4 border-b border-line px-4 md:h-[4.5rem] md:px-6">
         <Link to="/" className="flex shrink-0 items-center" aria-label="Simpex home">
           <img
             src="/images/brand/logo-header.png"
@@ -49,7 +50,7 @@ export function SiteHeader() {
           </Button>
         </div>
 
-        <div className="flex items-center gap-2 lg:hidden">
+        <div className="flex items-center gap-1 lg:hidden">
           <a
             href={site.phoneTel}
             className="flex size-11 items-center justify-center text-ink"

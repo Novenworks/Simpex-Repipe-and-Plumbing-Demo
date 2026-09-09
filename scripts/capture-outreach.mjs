@@ -22,6 +22,20 @@ async function info(file) {
   console.log("FILE", file, s.size);
 }
 
+async function hideInjectedChrome(page) {
+  await page.addStyleTag({
+    content: `
+      iframe[src*="grok.com"],
+      iframe[src*="grok-app-builder"],
+      [data-grok],
+      a[href*="grok.com/grok-app-builder"] {
+        display: none !important;
+        visibility: hidden !important;
+      }
+    `,
+  });
+}
+
 const browser = await chromium.launch({
   args: ["--no-sandbox", "--disable-dev-shm-usage"],
 });
@@ -72,6 +86,7 @@ async function fullScroll(page) {
   });
   console.log("capturing after desktop…");
   await page.goto("http://127.0.0.1:8080/", { waitUntil: "networkidle" });
+  await hideInjectedChrome(page);
   await page.waitForTimeout(800);
   await page.screenshot({
     path: path.join(OUT, "after-desktop.png"),
@@ -89,6 +104,7 @@ async function fullScroll(page) {
   });
   console.log("capturing after mobile…");
   await page.goto("http://127.0.0.1:8080/", { waitUntil: "networkidle" });
+  await hideInjectedChrome(page);
   await page.waitForTimeout(800);
   await page.screenshot({
     path: path.join(OUT, "after-mobile.png"),
@@ -107,6 +123,7 @@ async function fullScroll(page) {
   const page = await context.newPage();
   console.log("recording scroll…");
   await page.goto("http://127.0.0.1:8080/", { waitUntil: "networkidle" });
+  await hideInjectedChrome(page);
   await page.waitForTimeout(900);
   await page.evaluate(async () => {
     const delay = (ms) => new Promise((r) => setTimeout(r, ms));

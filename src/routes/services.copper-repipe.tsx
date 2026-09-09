@@ -19,9 +19,8 @@ export const Route = createFileRoute("/services/copper-repipe")({
           </p>
           <p className="mt-4">
             With a copper repipe, Simpex replaces those lines with new copper.
-            The company states that in most cases they will do it in one day,
-            and that they have completed a large number of repipes in Southern
-            California. Call for a free estimate.
+            The company states that in most cases the work is done in one day.
+            Call for a free estimate.
           </p>
           <img
             src="/images/about/truck.jpg"

@@ -19,11 +19,10 @@ export const Route = createFileRoute("/services/pex-repipe")({
             two material paths: PEX or copper.
           </p>
           <p className="mt-4">
-            First-party copy states their Southern California re-pipe
-            technicians are fully certified to install PEX and have replaced
-            and installed PEX in residential and commercial structures. They
-            describe the work as done “in the shortest possible time, with
-            maximum efficiency.”
+            First-party copy states Southern California re-pipe technicians are
+            fully certified to install PEX and have replaced and installed PEX
+            in residential and commercial structures. The work is described as
+            done “in the shortest possible time, with maximum efficiency.”
           </p>
           <img
             src="/images/hero/burst-pipe.png"

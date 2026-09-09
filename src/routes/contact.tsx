@@ -11,13 +11,25 @@ export const Route = createFileRoute("/contact")({
 function ContactPage() {
   return (
     <SiteShell>
-      <section className="mx-auto grid max-w-6xl gap-12 px-4 py-14 md:grid-cols-2 md:px-6 md:py-20">
-        <div>
+      <section className="relative isolate overflow-hidden bg-ink text-cream">
+        <img
+          src="/images/services/contact-header.jpg"
+          alt=""
+          className="absolute inset-0 h-full w-full object-cover opacity-40"
+        />
+        <div className="absolute inset-0 bg-ink/55" />
+        <div className="relative mx-auto max-w-6xl px-4 py-14 md:px-6 md:py-20">
           <p className="font-display text-sm tracking-[0.22em] uppercase text-copper">
             Contact
           </p>
-          <h1 className="mt-2 text-4xl md:text-5xl">Get a free estimate</h1>
-          <p className="mt-4 max-w-md leading-relaxed text-muted">
+          <h1 className="mt-2 max-w-2xl text-4xl md:text-5xl">
+            Get a free in-home estimate
+          </h1>
+        </div>
+      </section>
+      <section className="mx-auto grid max-w-6xl gap-12 px-4 py-14 md:grid-cols-2 md:px-6 md:py-20">
+        <div>
+          <p className="max-w-md leading-relaxed text-muted">
             Simpex offers free in-home estimates. Call{" "}
             <a className="font-semibold text-ink" href={site.phoneTel}>
               {site.phoneDisplay}
@@ -42,7 +54,12 @@ function ContactPage() {
           </ul>
           <p className="mt-8 text-sm text-muted">
             {site.licenseLabel} · {site.classification} ·{" "}
-            <a className="underline" href={site.cslb} target="_blank" rel="noreferrer">
+            <a
+              className="underline"
+              href={site.cslb}
+              target="_blank"
+              rel="noreferrer"
+            >
               Verify on CSLB
             </a>
           </p>
