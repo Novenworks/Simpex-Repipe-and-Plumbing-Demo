@@ -195,7 +195,7 @@ function OutreachPage() {
 
 I came across Simpex Repipe & Plumbing and ended up spending some time looking through the site.
 
-The real job photos and customer proof already give you a lot to work with.
+The real work is already the strongest part of the story.
 
 I had an idea for how I'd present it, so I built a version instead of sending you a bunch of suggestions.
 
