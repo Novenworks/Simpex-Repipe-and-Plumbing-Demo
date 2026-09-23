@@ -182,10 +182,10 @@ function OutreachPage() {
         <section className="mt-10">
           <h2 className="text-lg font-semibold">Subject lines</h2>
           <ol className="mt-2 list-decimal space-y-1 pl-5 text-sm text-zinc-300">
-            <li>Brian, I made something for Simpex Repipe & Plumbing</li>
-            <li>Had an idea for Simpex Repipe & Plumbing</li>
-            <li>Brian, I tried something with the Simpex Repipe & Plumbing site</li>
-          </ol>
+          <li>Brian, I made something for Simpex Repipe & Plumbing</li>
+          <li>Had an idea for Simpex Repipe & Plumbing</li>
+          <li>Tried something with the Simpex Repipe & Plumbing site</li>
+        </ol>
         </section>
 
         <section className="mt-10">
@@ -193,13 +193,13 @@ function OutreachPage() {
           <pre className="mt-2 whitespace-pre-wrap rounded-md bg-zinc-900 p-4 text-sm leading-relaxed text-zinc-200">
             {`Hi Brian,
 
-I found Simpex Repipe & Plumbing and got curious enough to spend some time on the site.
+I came across Simpex Repipe & Plumbing and ended up spending some time on the site.
 
-There is already a lot there to work with, especially the real project work and the finished results. I ended up building a homepage concept around that.
+You already have real work to show. I had an idea for giving the projects and proof more room, so I built a version.
 
 https://simpex-repipe-and-plumbing-demo.vercel.app
 
-Not trying to turn this into a big pitch. I just thought it was worth making and showing you.
+Thought you might be curious to see it. If the direction clicks, I can show you what I changed.
 
 Vincent
 Novenworks`}
@@ -211,11 +211,11 @@ Novenworks`}
           <pre className="mt-2 whitespace-pre-wrap rounded-md bg-zinc-900 p-4 text-sm leading-relaxed text-zinc-200">
             {`Hi Brian,
 
-Circling back once on this. I made that homepage concept for Simpex Repipe & Plumbing and figured it was worth one more send.
+Just bumping this once in case it got buried. I put together that Simpex Repipe & Plumbing homepage idea and wanted to make sure you saw it.
 
 https://simpex-repipe-and-plumbing-demo.vercel.app
 
-If it is not on your radar right now, all good.
+No pressure if the timing is bad. Figured it was worth sending.
 
 Vincent`}
           </pre>
