@@ -182,10 +182,10 @@ function OutreachPage() {
         <section className="mt-10">
           <h2 className="text-lg font-semibold">Subject lines</h2>
           <ol className="mt-2 list-decimal space-y-1 pl-5 text-sm text-zinc-300">
-          <li>Brian, I made something for Simpex Repipe & Plumbing</li>
-          <li>Had an idea for Simpex Repipe & Plumbing</li>
-          <li>Tried something with the Simpex Repipe & Plumbing site</li>
-        </ol>
+            <li>Brian, I made something for Simpex Repipe & Plumbing</li>
+            <li>had an idea for Simpex Repipe & Plumbing</li>
+            <li>quick thing I built for Simpex Repipe & Plumbing</li>
+          </ol>
         </section>
 
         <section className="mt-10">
@@ -193,17 +193,15 @@ function OutreachPage() {
           <pre className="mt-2 whitespace-pre-wrap rounded-md bg-zinc-900 p-4 text-sm leading-relaxed text-zinc-200">
             {`Hi Brian,
 
-I came across Simpex Repipe & Plumbing and ended up spending some time looking through the site.
+Came across Simpex Repipe & Plumbing and ended up building something.
 
-The real work is already the strongest part of the story.
+You already have the part that matters, real work and a business people can trust.
 
-I had an idea for how I'd present it, so I built a version instead of sending you a bunch of suggestions.
+I thought the site could make that clearer faster, so I put together a homepage concept.
 
 https://simpex-repipe-and-plumbing-demo.vercel.app
 
-Thought you might be curious to see it.
-
-If you like the direction, I can show you what I changed.
+No big pitch here. Thought you might be curious to see what someone else did with it.
 
 Vincent
 Novenworks`}
@@ -215,11 +213,11 @@ Novenworks`}
           <pre className="mt-2 whitespace-pre-wrap rounded-md bg-zinc-900 p-4 text-sm leading-relaxed text-zinc-200">
             {`Hi Brian,
 
-Just bumping this once in case it got buried. I put together that Simpex Repipe & Plumbing concept and wanted to make sure you saw it.
+One quick bump on this. I spent some time putting together that Simpex Repipe & Plumbing concept and wanted to make sure it actually reached you.
 
 https://simpex-repipe-and-plumbing-demo.vercel.app
 
-All good if it's not something you're looking at right now.
+If it's not something you're looking at right now, totally fine.
 
 Vincent`}
           </pre>
