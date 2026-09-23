@@ -193,13 +193,17 @@ function OutreachPage() {
           <pre className="mt-2 whitespace-pre-wrap rounded-md bg-zinc-900 p-4 text-sm leading-relaxed text-zinc-200">
             {`Hi Brian,
 
-I came across Simpex Repipe & Plumbing and ended up spending some time on the site.
+I came across Simpex Repipe & Plumbing and ended up spending some time looking through the site.
 
-You already have real work to show. I had an idea for giving the projects and proof more room, so I built a version.
+The real job photos and customer proof already give you a lot to work with.
+
+I had an idea for how I'd present it, so I built a version instead of sending you a bunch of suggestions.
 
 https://simpex-repipe-and-plumbing-demo.vercel.app
 
-Thought you might be curious to see it. If the direction clicks, I can show you what I changed.
+Thought you might be curious to see it.
+
+If you like the direction, I can show you what I changed.
 
 Vincent
 Novenworks`}
@@ -211,11 +215,11 @@ Novenworks`}
           <pre className="mt-2 whitespace-pre-wrap rounded-md bg-zinc-900 p-4 text-sm leading-relaxed text-zinc-200">
             {`Hi Brian,
 
-Just bumping this once in case it got buried. I put together that Simpex Repipe & Plumbing homepage idea and wanted to make sure you saw it.
+Just bumping this once in case it got buried. I put together that Simpex Repipe & Plumbing concept and wanted to make sure you saw it.
 
 https://simpex-repipe-and-plumbing-demo.vercel.app
 
-No pressure if the timing is bad. Figured it was worth sending.
+All good if it's not something you're looking at right now.
 
 Vincent`}
           </pre>
