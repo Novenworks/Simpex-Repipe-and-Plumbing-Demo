@@ -182,9 +182,9 @@ function OutreachPage() {
         <section className="mt-10">
           <h2 className="text-lg font-semibold">Subject lines</h2>
           <ol className="mt-2 list-decimal space-y-1 pl-5 text-sm text-zinc-300">
-            <li>Brian — a concept for Simpex built from your own repipe photos</li>
-            <li>The 2020 footer, and a clearer homepage for a 20-year repipe shop</li>
-            <li>Your reviews already sell the crew. The site doesn’t show the work.</li>
+            <li>Brian, I made something for Simpex Repipe &amp; Plumbing</li>
+            <li>Had an idea for Simpex Repipe &amp; Plumbing</li>
+            <li>Tried something with the Simpex Repipe &amp; Plumbing site</li>
           </ol>
         </section>
 
@@ -193,22 +193,33 @@ function OutreachPage() {
           <pre className="mt-2 whitespace-pre-wrap rounded-md bg-zinc-900 p-4 text-sm leading-relaxed text-zinc-200">
             {`Hi Brian,
 
-I was looking at simpexrepipe.com and noticed the footer still reads Copyright © 2020. The company behind it is clearly more current than that — licensed C36, real PEX and copper photography, and reviews that name you, the drywall patching, and city inspections.
+I came across Simpex Repipe & Plumbing and spent some time looking through the site.
 
-I’m with Novenworks. We built a speculative homepage concept (not a live cutover, and you didn’t hire us) that leads with the wall-open work and puts those reviews where a homeowner can actually read them.
-
-If useful, I’m happy to walk you through it. If not, no harm done.
+There was enough good stuff there that I started thinking about how I would present it differently, so I built a version instead of just sending you suggestions.
 
 https://simpex-repipe-and-plumbing-demo.vercel.app
-`}
+
+Thought you might be curious to see where I took it.
+
+If you like the direction, I can show you what I changed.
+
+Vincent
+Novenworks`}
           </pre>
         </section>
 
         <section className="mt-10">
           <h2 className="text-lg font-semibold">Follow-up</h2>
           <pre className="mt-2 whitespace-pre-wrap rounded-md bg-zinc-900 p-4 text-sm leading-relaxed text-zinc-200">
-            {`Hi Brian — short follow-up on the Simpex concept. No pitch deck. It’s a single page that treats the repipe as the product. Glad to take it down if you’d rather it not sit online.
-`}
+            {`Hi Brian,
+
+Just bumping this once in case it got buried. I put together that Simpex Repipe & Plumbing homepage concept and wanted to make sure you saw it.
+
+https://simpex-repipe-and-plumbing-demo.vercel.app
+
+No worries if it is not something you are looking at right now.
+
+Vincent`}
           </pre>
         </section>
 
