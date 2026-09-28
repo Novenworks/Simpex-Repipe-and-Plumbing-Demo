@@ -117,7 +117,7 @@ function OutreachPage() {
           <ol className="mt-2 list-decimal space-y-2 pl-5 text-sm text-zinc-300">
             <li>
               Hero states the specialty (whole-home PEX/copper repipe) in one
-              screen, with a first-party manifold photograph.
+              screen, with a first-party PEX tubing photograph.
             </li>
             <li>
               Trust is a verified strip (CSLB number + status, bonded/insured,
@@ -127,8 +127,8 @@ function OutreachPage() {
               Services grouped around buyer decisions, not a five-icon dump.
             </li>
             <li>
-              Work gallery uses actual piping/jobsite frames with honest
-              captions.
+              Work gallery uses first-party photos from simpexrepipe.com with
+              captions that describe what is in each frame.
             </li>
             <li>
               Mobile: sticky call + estimate, 44px targets, no cart widget.

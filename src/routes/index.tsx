@@ -38,7 +38,7 @@ function Home() {
       <section className="relative isolate min-h-[36rem] overflow-hidden bg-ink text-cream md:min-h-[42rem]">
         <img
           src="/images/hero/pex-header.jpg"
-          alt="PEX manifold and water lines in an opened residential wall"
+          alt="Red, blue, and white Uponor AquaPEX tubing"
           className="absolute inset-0 h-full w-full object-cover object-[72%_center] brightness-[1.08] contrast-[1.1]"
           width={1920}
           height={750}
@@ -165,10 +165,10 @@ function Home() {
           <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
             <div>
               <p className="font-display text-sm tracking-[0.22em] uppercase text-copper">
-                Real work
+                From the current site
               </p>
               <h2 className="mt-2 max-w-xl text-3xl md:text-5xl">
-                The job lives in the walls, not in a stock photo.
+                The job lives in the walls.
               </h2>
             </div>
             <Button asChild variant="light">
@@ -209,7 +209,7 @@ function Home() {
         <div className="overflow-hidden">
           <img
             src="/images/about/crew-job.jpg"
-            alt="Plumber working under a kitchen sink"
+            alt="Finished bathroom with a freestanding tub and double vanity"
             className="h-full w-full object-cover"
           />
         </div>

@@ -15,7 +15,7 @@ function AboutPage() {
       <section className="relative isolate overflow-hidden bg-ink text-cream">
         <img
           src="/images/about/header-about.jpg"
-          alt="Technician working at a residential water heater"
+          alt="Simpex Repipe & Plumbing service van"
           className="absolute inset-0 h-full w-full object-cover opacity-45"
         />
         <div className="absolute inset-0 bg-ink/60" />
@@ -62,7 +62,7 @@ function AboutPage() {
         </div>
         <img
           src="/images/about/crew-job.jpg"
-          alt="In-home plumbing work under a kitchen sink"
+          alt="Finished bathroom with a freestanding tub and double vanity"
           className="h-full max-h-[32rem] w-full object-cover"
         />
       </section>

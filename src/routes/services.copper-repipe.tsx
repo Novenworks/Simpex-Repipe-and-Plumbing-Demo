@@ -24,7 +24,7 @@ export const Route = createFileRoute("/services/copper-repipe")({
           </p>
           <img
             src="/images/about/truck.jpg"
-            alt="Close-up of copper piping"
+            alt="Simpex Repipe & Plumbing service van"
             className="mt-6 w-full object-cover"
           />
         </>

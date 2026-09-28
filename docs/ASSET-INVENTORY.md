@@ -10,13 +10,13 @@ All files live under `public/images/`.
 | `brand/logo-white-bg.png` | `/wp-content/uploads/2020/06/img-logo-white-bg@2x.png` | Header alt | 362×90 | Logo | High | Light surfaces |
 | `brand/logo-bottom.png` | `/wp-content/uploads/2020/06/logo-simpex-bottom.png` | Footer | 181×45 | Logo | High | Footer small |
 | `brand/favicon.png` | `/wp-content/uploads/2020/10/favicon.png` | Favicon | 90×90 | Mark | High | Favicon |
-| `hero/pex-header.jpg` | `/wp-content/uploads/2020/09/header-pex2.jpg` | `/pex-repipe/` | 1920×750 | Jobsite PEX manifold | High — published service photo of piping in a wall | **Hero** |
+| `hero/pex-header.jpg` | `/wp-content/uploads/2020/09/header-pex2.jpg` | `/pex-repipe/` | 1920×750 | Uponor AquaPEX tubing product shot (coils + red/blue/white lengths) — not a jobsite or manifold | High — first-party published header | **Hero** |
 | `hero/header-home.jpg` | `/wp-content/uploads/2020/06/header-home.jpg` | Homepage slider | 1920×800 | Technician + water heater | Medium — first-party header; may be stock-adjacent | About / process support |
 | `hero/burst-pipe.png` | `/wp-content/uploads/2020/06/Burst_Pipe_900.png` | Media library | 900×528 | Failed galvanized | High — problem the repipe solves | Differentiation / PEX page |
 | `hero/pex-pipes.png` | `/wp-content/uploads/2020/09/header-pex-repipe.png` | PEX header alt | 1920×750 | PEX coils | Medium | PEX service page |
-| `about/crew-job.jpg` | `/wp-content/uploads/2020/06/bg-about-us-v2.jpg` | About / home | 1920×917 | Under-sink install | High — cluttered real jobsite | About, process |
-| `about/header-about.jpg` | `/wp-content/uploads/2020/06/header-about-us.jpg` | `/about/` | 1920×800 | Technician at heater | Medium | About header |
-| `about/truck.jpg` | `/wp-content/uploads/2024/08/simpex_repipe_Truck11-1.jpg` | Media 2024 | 1920×800 | Copper pipe close-up (filename says truck; image is copper) | High — first-party work photo | Work, copper, final CTA |
+| `about/crew-job.jpg` | `/wp-content/uploads/2020/06/bg-about-us-v2.jpg` | About / home | 1920×917 | Finished bathroom interior (freestanding tub, double vanity) — no plumber or jobsite in frame; stock-adjacent | Medium | About, process |
+| `about/header-about.jpg` | `/wp-content/uploads/2020/06/header-about-us.jpg` | `/about/` | 1920×800 | Simpex branded service van (same scene as `truck.jpg`) | High — first-party | About header |
+| `about/truck.jpg` | `/wp-content/uploads/2024/08/simpex_repipe_Truck11-1.jpg` | Media 2024 | 1920×800 | Simpex branded service van (1-866-4-SIMPEX, Lic#1031884 on side) — not a copper close-up | High — first-party | Work, copper, final CTA |
 | `about/service-map.jpg` | `/wp-content/uploads/2020/06/img-map.jpg` | About | 1920×747 | SoCal map graphic | High — first-party diagram | Service area (supporting) |
 | `services/copper-header.jpg` | `/wp-content/uploads/2020/06/service-header-copper.jpg` | `/copper-repipe/` | 1920×800 | Copper in open wall | High | Copper service, work |
 | `services/copper-detail.jpg` | `/wp-content/uploads/2020/06/img-copper-avantage.jpg` | `/copper-repipe/` | 1115×650 | Copper in wall | High | Copper |
@@ -42,4 +42,4 @@ All files live under `public/images/`.
 
 ## Count
 
-**Usable first-party assets acquired and validated: 33** (logos + jobsite/service photography + map). **Work-proof photography used on the homepage: 8** (PEX manifold, PEX in wall, copper wall, copper close-up, burst pipe, under-sink crew, slab/foundation, under-house leak).
+**Usable first-party assets acquired and validated: 33** (logos + jobsite/service photography + map). **First-party photos in the homepage gallery: 8** (Uponor PEX tubing, stacked pipe ends, copper/brass valves at a pump, Simpex service van, finished bathroom, burst pipe, water meter connection, pressurized leak). Captions describe the frame only (corrected 2026-09-27; earlier captions described jobsite scenes not in the photos).

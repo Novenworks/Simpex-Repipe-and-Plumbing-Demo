@@ -47,7 +47,7 @@ export const services = [
     summary:
       "PEX (cross-linked polyethylene) is a flexible tubing used for hot and cold water. Simpex installs PEX when a home needs a full or partial repipe — including homes where galvanized or aging copper is failing.",
     image: "/images/services/pex-detail.jpg",
-    imageAlt: "PEX piping and fittings in an opened interior wall",
+    imageAlt: "Stacked cut ends of blue pipe",
     featured: true,
     points: [
       "Budget-friendly relative to some metal systems",
@@ -65,7 +65,7 @@ export const services = [
     summary:
       "Many homes in Orange County, Los Angeles County, and the Inland Empire were originally plumbed with galvanized iron. As it rusts, the inside diameter shrinks. Simpex replaces those lines with copper — in most cases in one day, per the company.",
     image: "/images/services/copper-header.jpg",
-    imageAlt: "New copper water lines installed in an opened wall",
+    imageAlt: "Plumber fitting copper lines and brass valves at a wall-mounted pump",
     featured: true,
     points: [
       "Increased water pressure vs. corroded galvanized",
@@ -83,7 +83,7 @@ export const services = [
     summary:
       "Once a slab leak is found, Simpex walks through repair options — from a concentrated spot repair to rerouting or a full re-pipe when aging lines are failing in more than one place.",
     image: "/images/services/slab-header.jpg",
-    imageAlt: "Foundation and slab at a residential plumbing repair",
+    imageAlt: "Hands working on a water meter and service line connection",
     featured: false,
     points: [
       "Hot or warm spots on the floor",
@@ -100,7 +100,7 @@ export const services = [
     summary:
       "Southern California homes often have water lines in or under the slab. Simpex uses non-invasive equipment to pinpoint leaks in slabs, walls, yards, and crawl spaces so the repair can stay targeted.",
     image: "/images/services/leak-header.jpg",
-    imageAlt: "Under-house piping where a hidden leak can develop",
+    imageAlt: "Water spraying from a pressurized pipe leak",
     featured: false,
     points: [
       "Service line from meter to home",
@@ -134,7 +134,7 @@ export const services = [
     summary:
       "Simpex is a full-service plumbing company and offers free in-home estimates. Beyond repipes, the live site lists drain, fixture, garbage disposal, faucet, water heater, and water softener work.",
     image: "/images/services/general-header.jpg",
-    imageAlt: "Plumber working on a residential water heater",
+    imageAlt: "Plumber carrying a tool bag and hoses in a residential kitchen",
     featured: false,
     points: [
       "Leak repair",
@@ -150,43 +150,43 @@ export const services = [
 export const workPhotos = [
   {
     src: "/images/hero/pex-header.jpg",
-    alt: "PEX manifold and distribution lines in an opened interior wall",
-    caption: "PEX manifold during a wall repipe",
+    alt: "Coils and lengths of red, blue, and white Uponor AquaPEX tubing",
+    caption: "Uponor AquaPEX tubing",
   },
   {
     src: "/images/services/pex-detail.jpg",
-    alt: "Red and blue PEX tubing routed through wall framing",
-    caption: "PEX distribution in an opened wall",
+    alt: "Stacked cut ends of blue pipe",
+    caption: "Stacked pipe ends",
   },
   {
     src: "/images/services/copper-header.jpg",
-    alt: "Copper water lines installed in a residential wall cavity",
-    caption: "Copper supply in an opened wall",
+    alt: "Plumber fitting copper lines and brass valves at a wall-mounted pump",
+    caption: "Copper and brass valves",
   },
   {
     src: "/images/about/truck.jpg",
-    alt: "Close-up of copper piping and fittings",
-    caption: "Copper close-up",
+    alt: "Simpex Repipe & Plumbing service van showing the 1-866-4-SIMPEX number and license number",
+    caption: "Simpex service van",
   },
   {
     src: "/images/about/crew-job.jpg",
-    alt: "Plumber working under a kitchen sink in a finished home",
-    caption: "In-home plumbing work",
+    alt: "Finished bathroom with a freestanding tub and double vanity",
+    caption: "Finished bathroom interior",
   },
   {
     src: "/images/hero/burst-pipe.png",
-    alt: "Burst and corroded galvanized pipe",
-    caption: "Failed galvanized — the problem a repipe solves",
+    alt: "Water spraying from a burst, corroded pipe",
+    caption: "A burst pipe — the problem a repipe solves",
   },
   {
     src: "/images/services/slab-header.jpg",
-    alt: "Residential slab and foundation during plumbing work",
-    caption: "Slab and foundation conditions",
+    alt: "Hands working on a water meter and service line connection",
+    caption: "Water meter and service line connection",
   },
   {
     src: "/images/services/leak-header.jpg",
-    alt: "Piping in a crawl space where leaks are found",
-    caption: "Under-house leak environment",
+    alt: "Water spraying from a pressurized pipe leak",
+    caption: "A pressurized leak",
   },
 ] as const;
 
