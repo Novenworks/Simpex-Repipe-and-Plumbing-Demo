@@ -53,7 +53,7 @@ No named agency, designer, or “site by” credit in the footer or page source.
 
 1. Copyright still 2020; visual system and type hierarchy are dated.
 2. Strong testimonials (including owner name, drywall patching, inspector comments) are buried in a slider.
-3. Real PEX/copper/job photography exists in the media library and service headers but is weakly used on the homepage.
+3. First-party PEX/copper material photos and a branded-van photo exist in the media library and service headers but are weakly used on the homepage. (Corrected 2026-09-27: none of the first-party frames in this repo shows wall-open or jobsite work.)
 4. WooCommerce cart + UZS currency on a lead-gen plumbing site.
 5. Portfolio CPT items are unlabeled “Portfolio 1–7” luxury interiors — not convincing plumbing proof.
 

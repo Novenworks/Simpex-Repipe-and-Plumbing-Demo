@@ -20,8 +20,7 @@ function WorkPage() {
         </h1>
         <p className="mt-4 max-w-2xl text-muted leading-relaxed">
           These frames were published by Simpex on simpexrepipe.com. Captions
-          describe what you are looking at. They are not named job addresses,
-          and they are not stock libraries.
+          describe what you are looking at. They are not named job addresses.
         </p>
         <div className="mt-10 grid gap-6 sm:grid-cols-2">
           {workPhotos.map((photo) => (

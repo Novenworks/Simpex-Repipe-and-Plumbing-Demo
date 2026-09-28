@@ -26,7 +26,7 @@ export const Route = createFileRoute("/services/pex-repipe")({
           </p>
           <img
             src="/images/hero/burst-pipe.png"
-            alt="Burst galvanized pipe that a PEX repipe is meant to replace"
+            alt="Water spraying from a burst, corroded pipe"
             className="mt-6 w-full object-cover"
           />
         </>
