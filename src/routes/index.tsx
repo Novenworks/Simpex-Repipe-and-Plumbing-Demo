@@ -273,7 +273,7 @@ function Home() {
         <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
           <div>
             <p className="font-display text-sm tracking-[0.22em] uppercase text-copper">
-              From the current site
+              Customer reviews
             </p>
             <h2 className="mt-2 text-3xl md:text-5xl">
               What homeowners already said
