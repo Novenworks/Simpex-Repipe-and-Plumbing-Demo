@@ -165,7 +165,7 @@ function Home() {
           <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
             <div>
               <p className="font-display text-sm tracking-[0.22em] uppercase text-copper">
-                From the current site
+                Up close
               </p>
               <h2 className="mt-2 max-w-xl text-3xl md:text-5xl">
                 The job lives in the walls.

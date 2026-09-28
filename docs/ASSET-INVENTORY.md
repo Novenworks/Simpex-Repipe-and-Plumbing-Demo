@@ -6,8 +6,8 @@ All files live under `public/images/`.
 
 | File | Source URL | Source page | Dimensions | Class | Confidence | Intended section |
 |---|---|---|---|---|---|---|
-| `brand/logo-header.png` | `/wp-content/uploads/2020/06/header-logo@2x.png` | Header (all pages) | 402×91 | Logo | High — first-party wordmark | Header, footer, outreach |
-| `brand/logo-white-bg.png` | `/wp-content/uploads/2020/06/img-logo-white-bg@2x.png` | Header alt | 362×90 | Logo | High | Light surfaces |
+| `brand/logo-header.png` | `/wp-content/uploads/2020/06/header-logo@2x.png` | Header (all pages) | 402×91 | Logo | High — first-party wordmark (white tagline/flame; inverted to white on dark surfaces) | Footer, mobile menu, outreach |
+| `brand/logo-white-bg.png` | `/wp-content/uploads/2020/06/img-logo-white-bg@2x.png` | Header alt | 362×90 | Logo | High | Site header (light surface) |
 | `brand/logo-bottom.png` | `/wp-content/uploads/2020/06/logo-simpex-bottom.png` | Footer | 181×45 | Logo | High | Footer small |
 | `brand/favicon.png` | `/wp-content/uploads/2020/10/favicon.png` | Favicon | 90×90 | Mark | High | Favicon |
 | `hero/pex-header.jpg` | `/wp-content/uploads/2020/09/header-pex2.jpg` | `/pex-repipe/` | 1920×750 | Uponor AquaPEX tubing product shot (coils + red/blue/white lengths) — not a jobsite or manifold | High — first-party published header | **Hero** |

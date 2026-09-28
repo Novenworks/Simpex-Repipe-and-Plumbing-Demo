@@ -17,11 +17,11 @@ export function SiteHeader() {
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-4 border-b border-line px-4 md:h-[4.5rem] md:px-6">
         <Link to="/" className="flex shrink-0 items-center" aria-label="Simpex home">
           <img
-            src="/images/brand/logo-header.png"
+            src="/images/brand/logo-white-bg.png"
             alt="Simpex Repipe & Plumbing"
             className="h-9 w-auto md:h-10"
-            width={402}
-            height={91}
+            width={362}
+            height={90}
           />
         </Link>
 
@@ -73,7 +73,7 @@ export function SiteHeader() {
               <img
                 src="/images/brand/logo-header.png"
                 alt=""
-                className="mb-8 h-8 w-auto brightness-0 invert"
+                className="mb-8 h-8 w-auto self-start brightness-0 invert"
               />
               <nav className="flex flex-col gap-1" aria-label="Mobile">
                 {nav.map((item) => (
