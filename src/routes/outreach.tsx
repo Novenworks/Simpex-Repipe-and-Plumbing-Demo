@@ -98,8 +98,9 @@ function OutreachPage() {
               patching, inspector comments) but live in a weak slider.
             </li>
             <li>
-              Real PEX/copper/job photography exists in the media library and
-              on service headers, then barely drives the homepage.
+              First-party PEX/copper material photos and a branded-van photo
+              exist in the media library and on service headers, then barely
+              drive the homepage.
             </li>
             <li>
               WooCommerce cart + Uzbekistani som (UZS) on a lead-gen plumbing
@@ -144,8 +145,9 @@ function OutreachPage() {
               doesn’t.”
             </li>
             <li>
-              “You have real wall-open photography. We put it where a buyer
-              decides.”
+              “Your site already has real first-party photos — the branded van,
+              PEX and copper material shots, a copper-and-valve install. We put
+              them up front and labeled them for what they are.”
             </li>
             <li>
               “The 2020 footer is the honest hook — not that the company is

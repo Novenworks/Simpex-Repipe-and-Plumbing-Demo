@@ -1,10 +1,10 @@
 # Asset-to-section plan
 
-Visual thesis: **show the system behind the wall.** This company is a whole-home repipe specialist. The homepage should lead with actual PEX manifolds and copper in open walls — the strongest first-party photography — not generic smiling-plumber stock and not the unlabeled luxury interior “portfolio.”
+Visual thesis: **lead with the materials and the brand.** This company is a whole-home repipe specialist. None of the first-party photos acquired for this repo shows wall-open or manifold jobsite work; its strongest frames are PEX/copper material shots, a copper-and-valve install at a pump, and the branded Simpex van. Use those honestly — not generic smiling-plumber stock and not the unlabeled luxury interior “portfolio.” Describe every frame by what is actually in it (verified 2026-09-27).
 
 ## Hero
 
-- **Primary:** `hero/pex-header.jpg` (PEX manifold in a stud wall). Full-bleed, dark charcoal overlay, wordmark + headline + two CTAs.
+- **Primary:** `hero/pex-header.jpg` (Uponor AquaPEX tubing product shot — red/blue coils and lengths; not a manifold or jobsite). Full-bleed, dark charcoal overlay, wordmark + headline + two CTAs.
 - Why: immediately answers “what is this company especially good at?”
 
 ## Trust strip
@@ -14,39 +14,39 @@ Visual thesis: **show the system behind the wall.** This company is a whole-home
 
 ## Primary services
 
-- **PEX:** `services/pex-detail.jpg` + `hero/pex-header.jpg`
-- **Copper:** `services/copper-header.jpg` + `about/truck.jpg` (copper close-up)
+- **PEX:** `services/pex-detail.jpg` (stacked cut pipe ends) + `hero/burst-pipe.png` on the PEX page
+- **Copper:** `services/copper-header.jpg` (copper lines and brass valves at a wall-mounted pump) + `about/truck.jpg` (Simpex service van — not a copper close-up)
 - Large editorial cards, not an icon grid.
 
 ## Work / proof
 
-Use real piping and jobsite frames only. Captions describe **what is in the photo**, not invented project names or cities.
+First-party photos from simpexrepipe.com only. These are **not** completed-job photos; do not present them as Simpex projects. Captions describe **what is in the photo**, not invented project names, cities, or scenes (source of truth: `workPhotos` in `src/lib/site.ts`).
 
-1. `hero/pex-header.jpg` — PEX manifold during a wall repipe
-2. `services/pex-detail.jpg` — PEX distribution in an opened wall
-3. `services/copper-header.jpg` — Copper supply in an opened wall
-4. `about/truck.jpg` — Copper close-up
-5. `about/crew-job.jpg` — In-home plumbing work
-6. `hero/burst-pipe.png` — Failed galvanized (the problem a repipe solves)
-7. `services/slab-header.jpg` — Slab / foundation condition
-8. `services/leak-header.jpg` — Under-house leak environment
+1. `hero/pex-header.jpg` — Uponor AquaPEX tubing
+2. `services/pex-detail.jpg` — Stacked pipe ends
+3. `services/copper-header.jpg` — Copper and brass valves
+4. `about/truck.jpg` — Simpex service van
+5. `about/crew-job.jpg` — Finished bathroom interior
+6. `hero/burst-pipe.png` — A burst pipe (the problem a repipe solves)
+7. `services/slab-header.jpg` — Water meter and service line connection
+8. `services/leak-header.jpg` — A pressurized leak
 
 Do **not** place `work/portfolio-1.jpg`–`7.jpg` in this section.
 
 ## Differentiation / about
 
-- `about/crew-job.jpg` large
-- `hero/header-home.jpg` supporting
+- `about/crew-job.jpg` large (finished bathroom interior — no plumber in frame; alt text must say so)
+- `hero/header-home.jpg` supporting, if used (gloved hand with a wrench beside a kitchen faucet)
 - Copy from first-party About + customer-stated proof (Brian/owner, drywall patching, walkthroughs) clearly attributed as reviews.
 
 ## Process
 
-Typographic steps. Small supporting crop of `about/crew-job.jpg` only.
+Typographic steps. Small supporting crop of `about/crew-job.jpg` only (finished bathroom; do not caption as work in progress).
 
 ## Secondary services
 
-- Slab: `services/slab-header.jpg` / `repair-options.jpg`
-- Leak detection: `services/leak-header.jpg`
+- Slab: `services/slab-header.jpg` (water meter connection) / `repair-options.jpg` (copper pipe spraying from a split)
+- Leak detection: `services/leak-header.jpg` (pressurized leak close-up) / `leak-detail.jpg` (thermal imaging camera)
 - Sewer: `services/sewer-header.jpg` (posed; caption as inspection service, not a named job)
 - General: `services/general-header.jpg`
 
@@ -60,7 +60,7 @@ Addresses + area names. Optional `about/service-map.jpg` as a quiet background, 
 
 ## Final CTA
 
-`about/truck.jpg` or `services/copper-header.jpg` as a full-bleed band. Estimate + call.
+`about/truck.jpg` (Simpex service van) or `services/copper-header.jpg` as a full-bleed band. Estimate + call.
 
 ## What we refuse
 
